@@ -1,4 +1,4 @@
-# MyLibraryName
+# SafeAreaInsetDimensionsEnvironmentValue
 
 <!-- Header Logo -->
 
@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/tvOS-15.0+-41465B.svg" />
     <img src="https://img.shields.io/badge/watchOS-8.0+-1FD67A.svg" />
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" />
-    <img src="https://github.com/CypherPoet/MyLibraryName/workflows/Build%20&%20Test/badge.svg" />
+    <img src="https://github.com/CypherPoet/SafeAreaInsetDimensionsEnvironmentValue/workflows/Build%20&%20Test/badge.svg" />
     <a href="https://github.com/apple/swift-package-manager">
       <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" />
     </a>
@@ -29,7 +29,7 @@
 
 <p align="center">
 
-_[ A brief synopsis of this library ]._
+_A custom SwiftUI EnvironmentValue for dynamically reading a `View`'s SafeArea inset dimensions._
 
 <p />
 
@@ -38,20 +38,20 @@ _[ A brief synopsis of this library ]._
 
 ### Xcode Projects
 
-Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/CypherPoet/MyLibraryName`.
+Select `File` -> `Swift Packages` -> `Add Package Dependency` and enter `https://github.com/CypherPoet/SafeAreaInsetDimensionsEnvironmentValue`.
 
 
 ### Swift Package Manager Projects
 
-You can add `MyPackageName` as a package dependency in your `Package.swift` file:
+You can add `SafeAreaInsetDimensionsEnvironmentValue` as a package dependency in your `Package.swift` file:
 
 ```swift
 let package = Package(
     //...
     dependencies: [
         .package(
-            name: "MyPackageName",
-            url: "https://github.com/CypherPoet/MyLibraryName",
+            name: "SafeAreaInsetDimensionsEnvironmentValue",
+            url: "https://github.com/CypherPoet/SafeAreaInsetDimensionsEnvironmentValue",
             .exact("0.0.1")
         ),
     ],
@@ -62,34 +62,14 @@ let package = Package(
 
 <!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME MATCHES THE LIBRARY NAME 👇 -->
 
-<!-- From there, refer to `MyLibraryName` as a "target dependency" in any of _your_ package's targets that need it.
+From there, refer to `SafeAreaInsetDimensionsEnvironmentValue` as a "target dependency" in any of _your_ package's targets that need it.
 
 ```swift
 targets: [
     .target(
         name: "YourLibrary",
         dependencies: [
-          "MyLibraryName",
-        ],
-        ...
-    ),
-    ...
-]
-``` -->
-
-<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME DOESN'T MATCH THE LIBRARY NAME 👇 -->
-
-From there, refer to the `MyLibraryName` "product" delivered by the `MyPackageName` "package" inside of any of your project's target dependencies:
-
-```swift
-targets: [
-    .target(
-        name: "YourLibrary",
-        dependencies: [
-            .product(
-                name: "MyLibraryName",
-                package: "MyPackageName"
-            ),
+          "SafeAreaInsetDimensionsEnvironmentValue",
         ],
         ...
     ),
@@ -97,24 +77,38 @@ targets: [
 ]
 ```
 
+<!-- 🔑 UNCOMMENT THE INSTRUCTIONS BELOW IF THE GITHUB REPO NAME DOESN'T MATCH THE LIBRARY NAME 👇 -->
+
+<!-- From there, refer to the `SafeAreaInsetDimensionsEnvironmentValue` "product" delivered by the `SafeAreaInsetDimensionsEnvironmentValue` "package" inside of any of your project's target dependencies:
+
+```swift
+targets: [
+    .target(
+        name: "YourLibrary",
+        dependencies: [
+            .product(
+                name: "SafeAreaInsetDimensionsEnvironmentValue",
+                package: "SafeAreaInsetDimensionsEnvironmentValue"
+            ),
+        ],
+        ...
+    ),
+    ...
+]
+``` -->
+
 <!-- Proceed from above choice accordingly (and delete this comment) -->
 
-Then simply `import MyLibraryName` wherever you’d like to use it.
+Then simply `import SafeAreaInsetDimensionsEnvironmentValue` wherever you’d like to use it.
 
 
 ## Usage
 
 
 
-## 🗺 Roadmap
-
-- World Domination
-
-
-
 ## Contributing
 
-Contributions to `MyPackageName` are most welcome. Check out some of the [issue templates](./.github/ISSUE_TEMPLATE/) for more info.
+Contributions to `SafeAreaInsetDimensionsEnvironmentValue` are most welcome. Check out some of the [issue templates](./.github/ISSUE_TEMPLATE/) for more info.
 
 
 
@@ -134,14 +128,4 @@ For now, the best way to view the docs is to open the project in Xcode and run t
 
 ## 🏷 License
 
-`MyPackageName` is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
-
-
-## Steps For Using This Template
-
-- [ ] Rename instances of `MyLibraryName` to the library's product name.
-- [ ] Rename files and directories with names of `MyLibraryName` to the library's product name.
-- [ ] Rename instances of `MyPackageName` to the library's Swift package name.
-- [ ] Update supported platforms in `Package.swift` and in this README's badges as appropriate.
-- [ ] Replaces instances of `[ A brief synopsis of this library ]` with the library's short description.
-- [ ] Delete this section.
+`SafeAreaInsetDimensionsEnvironmentValue` is available under the MIT license. See the [LICENSE file](./LICENSE) for more info.
