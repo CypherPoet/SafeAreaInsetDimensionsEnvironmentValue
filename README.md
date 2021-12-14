@@ -12,7 +12,7 @@
 <p>
     <img src="https://img.shields.io/badge/Swift-5.5-F06C33.svg" />
     <img src="https://img.shields.io/badge/iOS-13.0+-865EFC.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-15.0+-F65EFC.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-13.0+-F65EFC.svg" />
     <img src="https://img.shields.io/badge/macOS-10.15+-179AC8.svg" />
     <img src="https://img.shields.io/badge/tvOS-13.0+-41465B.svg" />
     <img src="https://img.shields.io/badge/watchOS-6.0+-1FD67A.svg" />
